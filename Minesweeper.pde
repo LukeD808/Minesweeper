@@ -173,17 +173,6 @@ public class MSButton
       }
     }
       
-    public void keyPressed (){
-      if (key == ' '){
-        if (flagged == false)
-          flagged = true;
-        else{
-          flagged = false;
-          clicked = false;
-        }
-      }
-    }
-    */
     public void draw () 
     {    
         int r = 15;
